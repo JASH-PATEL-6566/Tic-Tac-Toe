@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="./favicon.ico" rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="upper">
+            <div class="box-upper turn_box">
+                <span class="player_symbol">X&nbsp;&nbsp;</span>
+                <p class="turn">Turn</p>
+            </div>
+            <div></div>
+            <div class="box-upper btn">
+                <button class="restart">Restart</button>
+            </div>
+        </div>
+        <div class="box_container">
+            <div class="box r-1-c-1" valueCol="1" valueRow="1">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+            <div class="box r-1-c-2" valueCol="2" valueRow="1">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+            <div class="box r-1-c-3" valueCol="3" valueRow="1">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+            <div class="box r-2-c-1" valueCol="1" valueRow="2">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+            <div class="box r-2-c-2" valueCol="2" valueRow="2">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+            <div class="box r-2-c-3" valueCol="3" valueRow="2">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+            <div class="box r-3-c-1" valueCol="1" valueRow="3">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+            <div class="box r-3-c-2" valueCol="2" valueRow="3">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+            <div class="box r-3-c-3" valueCol="3" valueRow="3">
+                <div class="player-1-img display_none"><img class="img" src="./images/p-1.png" alt=""></div>
+                <div class="player-2-img display_none"><img class="img" src="./images/p-2.png" alt=""></div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="box-lower p1">
+                <p class="player-1">Player 1</p>
+                <span class="p1_match">0</span>
+            </div>
+            <div class="box-lower t">
+                <p class="tie">Ties</p>
+                <span class="tie_match">0</span>
+            </div>
+            <div class="box-lower p2">
+                <p class="player-2">Player 2</p>
+                <span class="p2_match">0</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="second_body">
+        <div class="final">
+
+        </div>
+    </div>
+</body>
+<script src="./JS/script.js"></script>
+
+</html>
